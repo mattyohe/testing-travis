@@ -3,5 +3,5 @@ language: objective-c
 notifications:
   email: false
 script:
-    - ./xctool/xctool test -project HelloWorld.xcodeproj -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - ./xctool/xctool.sh test -project HelloWorld.xcodeproj -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
